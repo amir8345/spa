@@ -10,7 +10,7 @@
 <body>
     
     <div id="app">
-        <nav class="bg-red-500">
+        <nav class="bg-green-500">
             <router-link to="/">home</router-link>
             <router-link to="/books">books</router-link>
         </nav>
