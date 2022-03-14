@@ -8,13 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     <div id="app">
-        <nav class="bg-green-500">
-            <router-link to="/">home</router-link>
-            <router-link to="/books">books</router-link>
-        </nav>
         
+        <div class="nav bg-green-500">
+            <router-link>home</router-link>
+            <router-link>books</router-link>
+        </div>
+
         <div id="main">
             <router-view></router-view>
         </div>
