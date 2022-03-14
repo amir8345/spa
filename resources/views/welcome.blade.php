@@ -18,15 +18,16 @@
         </nav>
 
         <div id="main">
-        <div class="flex flex-row">
-            <div class="basis-1/2">fjds</div>
-            <div class="basis-1/2">fjds</div>
-        </div>
             <router-view></router-view>
         </div>
         
     </div>
-
+    
+    <div class="flex flex-row">
+        <div class="basis-1/2">fjds</div>
+        <div class="basis-1/2">fjds</div>
+    </div>
+    
     <script src="/js/app.js" ></script>
 </body>
 </html>
