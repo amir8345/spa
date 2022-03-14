@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    gmkldmflkgmd;
     <div id="app">
         <nav class="bg-blue-500">
             <router-link to="/">home</router-link>
