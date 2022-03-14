@@ -12,7 +12,7 @@
     
     <div id="app">
        
-        <nav class="bg-green-500">
+        <nav class="bg-green-100">
             <router-link>home</router-link>
             <router-link>books</router-link>
         </nav>
