@@ -11,7 +11,7 @@
     gmkldmflkgmd;
     <div id="app">
         <nav class="bg-blue-500">
-            <router-link to="/">home</router-link>
+            <router-link to="/" class="bg-gray-200">home</router-link>
             <router-link to="/books">books</router-link>
         </nav>
         
