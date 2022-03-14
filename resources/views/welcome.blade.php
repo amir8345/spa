@@ -9,18 +9,19 @@
 </head>
 <body>
 
-    <div class="flex flex-row">
-        <div class="basis-1/2">fjds</div>
-        <div class="basis-1/2">fjds</div>
-    </div>
-
+    
     <div id="app">
-        <div class="nav bg-green-500">
+       
+        <nav class="bg-green-500">
             <router-link>home</router-link>
             <router-link>books</router-link>
-        </div>
+        </nav>
 
         <div id="main">
+        <div class="flex flex-row">
+            <div class="basis-1/2">fjds</div>
+            <div class="basis-1/2">fjds</div>
+        </div>
             <router-view></router-view>
         </div>
         
