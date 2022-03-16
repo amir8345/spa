@@ -11,21 +11,15 @@
 
     
     <div id="app">
-       
-        <nav class="bg-green-100">
-            <router-link>home</router-link>
-            <router-link>books</router-link>
+        <nav class="bg-green-600">
+            <router-link to="/home">home</router-link>
+            <router-link to="/books">books</router-link>
         </nav>
 
         <div id="main">
             <router-view></router-view>
         </div>
         
-    </div>
-    
-    <div class="flex flex-row">
-        <div class="basis-1/2">fjds</div>
-        <div class="basis-1/2">fjds</div>
     </div>
     
     <script src="/js/app.js" ></script>
